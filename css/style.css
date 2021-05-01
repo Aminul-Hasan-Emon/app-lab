@@ -1,0 +1,191 @@
+/*! ================ Start Fonts Area ================== */
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-Regular.ttf');
+}
+@font-face {
+    font-family: 'Poppins-Medium';
+    src: url('../fonts/Poppins-Medium.ttf');
+}
+@font-face {
+    font-family: 'Poppins-Bold';
+    src: url('../fonts/Poppins-Bold.ttf');
+}
+@font-face {
+    font-family: 'Poppins-Semibold';
+    src: url('../fonts/Poppins-SemiBold.ttf');
+}
+@font-face {
+    font-family: 'Poppins-Extrabold';
+    src: url('../fonts/Poppins-ExtraBold.ttf');
+}
+
+
+/*! ================ End Fonts Area ================== */
+
+
+
+
+
+
+
+/*! ================ Essential Area Start ================== */
+
+
+body {
+    font-family: 'Poppins';
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+section,
+footer {
+    padding: 4rem 0;
+}
+
+/* ***** Navbar Toggler Icon ****** */
+
+.navbar-toggler{color:rgba(0,0,0,.55);border-color:rgba(0,0,0,.1)} .navbar-toggler-icon{background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")}
+
+
+/*! ================ Essential Area End ================== */
+
+
+
+
+/*! ================ Header Area Start ================== */
+/*! ================ Header Area End ================== */
+
+
+
+/*! ================ Header Area Start ================== */
+
+header.header-area {
+    background: url('../images/bg/Home-page.png') no-repeat center center / cover;
+}
+
+/* ***** Navigation ***** */
+
+.nav-link {
+    color: #242f51;
+    font-family: 'Poppins';
+    font-size: 17px;
+    transition: .4s ease;
+    margin: auto 10px;
+    text-transform: capitalize;
+}
+
+.nav-link:hover {
+    color: #2500f9;
+}
+
+/* ***** Try For Free Button ****** */
+
+.navbar-nav .try-for-free {
+    margin-right: 0 !important;
+}
+
+/* ****** Starting ****** */
+
+.top-heading {
+    font-family: 'Poppins-Semibold';
+    font-size: 3rem;
+    margin: 1rem 0;
+}
+.top-pera {
+    font-size: 17px;
+    color: #616368;
+}
+
+.buttons .watch-demo-video {
+    font-size: 17px;
+    text-decoration: none;
+    font-family: 'Poppins-Medium';
+}
+
+.buttons .watch-demo-video:hover {
+    text-decoration: underline;
+}
+
+.header-area .trending {
+    background-color: #e2eaed;
+    border-radius: 60px;
+    display: inline-block;
+    text-align: center;
+    padding: 0 1rem 0 0;
+}
+
+.header-area .trending span {
+    font-family: 'Poppins';
+}
+
+.right-img img {
+    width: 70%;
+}
+
+
+
+/*! ================ Header Area End ================== */
+
+
+/*! ================ Trusted Companies Area Start ================== */
+
+.trusted-companies {
+    background: url('../images/bg/image-1-2.png') no-repeat bottom right;
+    text-align: center;
+    padding: 7rem;
+}
+
+.trusted-companies h3 {
+    font-size: 18px;
+    font-family: 'Poppins-Semibold';
+    line-height: 1.5;
+}
+
+.trusted-companies .single-brand img {
+    transition: .4s ease;
+    border: 1px solid transparent;
+}
+.trusted-companies .single-brand img:hover {
+    box-shadow: 0 0 5px 3px rgba(170, 170, 170, .5);
+    border: 1px solid  rgba(170, 170, 170, .5);
+}
+
+
+/*! ================ Trusted Companies Area End ================== */
+
+
+/*! ================ Utility Clases ================== */
+
+.primary-btn {
+    height: 55px;
+    width: 170px;
+    border-radius: 60px;
+    background: #2500f9;
+    text-decoration: none;
+    border: 2px solid transparent;
+    color: white;
+    text-transform: capitalize;
+    font-size: 17px;
+    font-family: 'Poppins-Semibold';
+    transition: .4s ease;
+    text-align: center;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.primary-btn:hover {
+    background: transparent;
+    color: #2500f9;
+    border:2px solid #2500f9;
+}
+
+
+/*! ================ Utility Clases ================== */
