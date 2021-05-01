@@ -161,6 +161,101 @@ header.header-area {
 /*! ================ Trusted Companies Area End ================== */
 
 
+/*! ================ Apps Features Area Stats ================== */
+
+.apps-features {
+    background: #fcfbfb;
+}
+
+.apps-features .left-img img {
+    width: 80%;
+}
+
+.apps-features .features .features-item .right {
+    width: 60%;
+    padding-left: 1.5rem;
+}
+.apps-features .right-area > p {
+    width: 80%;
+}
+
+
+/*! ================ Apps Features Area Ends ================== */
+
+
+
+/*! ================ Smart Jeckpots Area Starts ================== */
+
+.smart-jeckpots .heading-1 {
+    width: 80%;
+    margin-left: 3rem;
+}
+.smart-jeckpots .sm {
+    margin-left: 3rem;
+    width: 80%;
+}
+
+.smart-jeckpots .jeckpots .img {
+    margin-bottom: 2rem;
+}
+
+
+
+.smart-jeckpots .jeckpots {
+    margin-top: 6rem;
+}
+
+
+
+
+/*! ================ Smart Jeckpots Area Ends ================== */
+
+
+/*! ================ Latest Coding Area Starts ================== */
+
+.latest-coding {
+    background: #fcfbfb;
+}
+
+.latest-coding .left-img {
+    text-align: center;
+}
+.latest-coding .left-img img {
+    width: 80%;
+}
+
+.latest-coding .text {
+    width: 70%;
+}
+.latest-coding .pera {
+    margin: 2rem 0;
+}
+
+/*! ================ Latest Coding Area Ends ================== */
+
+
+
+/*! ================ App Funtions area Starts ================== */
+
+
+
+.app-funtions .m-container {
+    width: 70%;
+    margin: auto;
+}
+
+.app-funtions .text {
+    width: 80%;
+}
+.app-funtions .features .feature-item {
+    transition: .4s ease;
+}
+
+
+/*! ================ App Funtions area Ends ================== */
+
+
+
 /*! ================ Utility Clases ================== */
 
 .primary-btn {
@@ -186,6 +281,61 @@ header.header-area {
     color: #2500f9;
     border:2px solid #2500f9;
 }
+.heading-1 {
+    font-size: 2rem;
+    font-family: 'Poppins-Semibold';
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+}
+.heading-2 {
+    font-size: 1.3rem;
+    text-transform: capitalize;
+    font-family: 'Poppins-Semibold';
+    margin-bottom: .8rem;
+}
 
+.pera {
+    font-size: 16px;
+    color: #616368;
+    line-height: 1.5;
+}
+.red-heading {
+    color: #f55767;
+}
+.blue-heading {
+    color: #2563ff;
+}
+.green-heading {
+    color: #40975f;
+}
 
 /*! ================ Utility Clases ================== */
+
+
+
+/*! ================ Responsive area Starts ================== */
+
+/* ***** Tab Media **** */
+
+@media (min-width:768px) {
+    .smart-jeckpots .border-right {
+        border-right: 1px solid #b9b9b8;
+    }
+}
+
+/* ***** Computer Device ****** */
+
+@media (max-width: 992px) {
+    .jeckpots .text {
+        width: 60%;
+    }
+    
+}
+@media (min-width: 992px) {
+    .app-funtions .top {
+        width: 60%;
+        margin:auto;
+    }
+}
+
+/*! ================ Responsive area Ends ================== */
